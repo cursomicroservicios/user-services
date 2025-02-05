@@ -1,0 +1,11 @@
+server:
+  port: ${CUSTOM.SERVER.PORT:9004}
+
+spring:
+  profiles:
+    active: ${USER.SERVICES.PROFILE:dev}
+  cloud:
+    config:
+      uri: ${CONFIG.CLIENT.URI:http://localhost:9000}
+      profile: ${spring.profiles.active:dev}
+      enabled: true

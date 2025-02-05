@@ -1,0 +1,8 @@
+,------.         ,--.          ,--.   ,--. ,------.
+|  .-.  \  ,---. `--',--.  ,--.`--' ,-|  | |  .-.  \  ,---.,--.  ,--.
+|  |  \  :| .-. :,--. \  `'  / ,--.' .-. | |  |  \  :| .-. :\  `'  /
+|  '--'  /\   --.|  |  \    /  |  |\ `-' | |  '--'  /\   --. \    /
+`-------'  `----'`--'   `--'   `--' `---'  `-------'  `----'  `--'
+
+Microservicio ${spring.application.name} - Version ${spring.application.version}
+Desarrollador por ${spring.application.author}
